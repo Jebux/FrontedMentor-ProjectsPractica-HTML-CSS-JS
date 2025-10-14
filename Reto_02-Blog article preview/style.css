@@ -1,0 +1,52 @@
+body{
+  background-color: rgb(255,206,46);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card{
+  background-color: white;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 25px;
+  border: 1px black solid;
+  border-radius: 15px;
+  box-shadow: 8px 8px black;
+}
+
+.img-card img{
+  width: 100%;
+  border-radius: 5px;
+}
+
+h1, h4{
+  margin:none;
+}
+
+.skill{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255,206,46);
+  width: 80px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.img-profile{
+  display: flex;
+  align-items: center;
+}
+
+.img-profile img{
+  
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}

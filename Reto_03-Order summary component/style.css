@@ -1,0 +1,75 @@
+body{
+  background-color: hsl(255,100%, 94%);
+  font-family: 'Red Hat Display', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card{
+  background-color: white;
+  width: 350px;
+  border-radius: 15px;
+  box-shadow: 0 15px 20px hsl(224,23%,55%);
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h3, p {
+  margin:0;
+}
+
+p{
+  color: gray;
+  line-height: 1.7;
+}
+
+.plan{
+  background-color: rgb(241,248,255);
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 15px;
+}
+
+.plan-text{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+a{
+  color: rgb(87,68,254)
+}
+
+button{
+  width: 80%;
+  padding: 15px 0;
+  border-radius: 10px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.btn-proceed{
+  background-color: rgb(62,62,247);
+  color:white;
+  box-shadow: 0 5px 12px rgba(52,52,52,0.7);
+  margin-bottom: 15px;
+}
+
+.btn-cancel{
+  background-color: white;
+  color: gray;
+  margin-bottom: 10px;
+}
